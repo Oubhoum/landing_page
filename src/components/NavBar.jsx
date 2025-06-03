@@ -13,7 +13,10 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className="border-b-2">
+        
+            {/* <nav className="border-b-2 "> */}
+                <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md border-b-2">
+
 
                 <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
                     <div className="pl-2">

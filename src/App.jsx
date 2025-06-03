@@ -10,18 +10,21 @@ import Services from "./components/Services"
 const App = () => {
   return (
 
-    <main className="overflow-hidden antialiased text-neutral-900 dark:text-neutral-800">
+    <>
 
       <NavBar />
-      <Hero />
-      <Services />
-      <Portfolio />
-      <About />
-      <Reviews />
-      <ContactUs />
-      <Footer />
+      <main className="overflow-hidden antialiased text-neutral-900 dark:text-neutral-800">
 
-    </main>
+        <Hero />
+        <Services />
+        <Portfolio />
+        <About />
+        <Reviews />
+        <ContactUs />
+        <Footer />
+
+      </main>
+    </>
   )
 }
 
